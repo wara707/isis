@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Caveat", cursive;
+    text-decoration: none;
+    color: #111;
+
+}
+
+header {
+    background-color: rgb(141, 174, 202);
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+li {
+    padding-inline: 20px;
+    display: inline;
+    font-size: 20px;
+
+}
+
+h1 {
+    color: rgb(35, 78, 114);
+    text-align: center;
+}
+
+p {
+    display: block;
+}
+
+a {
+    color: #7b739f;
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    width: 80vw;
+    text-align: center;
+    border-style: solid;
+    border-color: #5a8584;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+article img {
+    width: 200px;
+    margin: 0 20%;
+}
+
+.precio {
+    font-size: large;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+button {
+
+    background-color: #b1c3db;
+    border-style: solid;
+    border-color: #b6e0df;
+}
+
+.wp {
+    font-size: 40px;
+    height: 80px;
+    width: 80px;
+    color: #0b660a;
+    position: fixed;
+    bottom: 2px;
+    right: 2px;
+}
+
+.contenedor {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width:60px) {
+    header {
+        background-color: #c3b9ed;
+
+        nav vi li {
+            display: hidden;
+        }
+    }
+}
+
+@media (min-width: 500px) {
+    header {
+        background-color: #d7dcee;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    .contenedor {
+        flex-direction: row;
+    }
+}
+img{
+    margin: 0 auto;
+}
