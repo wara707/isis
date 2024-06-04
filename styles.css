@@ -80,7 +80,7 @@ button {
     right: 2px;
 }
 
-.contenedor {
+.contenedor_card {
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -111,10 +111,12 @@ button {
         list-style: none;
     }
 
-    .contenedor {
+    .contenedor_card {
         flex-direction: row;
+        justify-content: space-around;
     }
 }
 img{
     margin: 0 auto;
 }
+
